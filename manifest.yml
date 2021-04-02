@@ -1,0 +1,3 @@
+applications:
+  - name: ticket-jockey-client-dev
+    memory: 64M

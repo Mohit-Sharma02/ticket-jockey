@@ -1,0 +1,25 @@
+// Here you can add other styles
+
+@keyframes blink {
+  from {
+    background-color: rgba(77, 189, 116, 0.2);
+  }
+
+  to {
+    background-color: rgba(77, 189, 116, 0.8);
+  }
+}
+
+.blink {
+  animation: blink 2s ease-in infinite;
+}
+
+/*Responsive*/
+.react-bs-table-container {
+  .react-bs-table table td,
+  .react-bs-table table th {
+    white-space: pre-line;
+    text-overflow: unset;
+    overflow-wrap: break-word;
+  }
+}
